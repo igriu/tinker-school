@@ -38,7 +38,6 @@ export class LocalizeServerLoader extends LocalizeParser {
       const assetsFolder = join(
         process.cwd(),
         'functions/browser/assets',
-        'i18n',
         'locales.json',
       );
 
